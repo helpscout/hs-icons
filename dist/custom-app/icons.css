@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "hs-custom-app-icon";
+	src: url('/dist/custom-app/hs-custom-app-icon.eot');
+	src: url('/dist/custom-app/hs-custom-app-icon.eot?#iefix') format('eot'),
+		url('/dist/custom-app/hs-custom-app-icon.woff2') format('woff2'),
+		url('/dist/custom-app/hs-custom-app-icon.woff') format('woff'),
+		url('/dist/custom-app/hs-custom-app-icon.ttf') format('truetype'),
+		url('/dist/custom-app/hs-custom-app-icon.svg#hs-custom-app-icon') format('svg');
+}
+
+.icon:before {
+	font-family: "hs-custom-app-icon";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-app-arrow:before {
+	content: "\E001";
+}
+
+.icon-app-cart:before {
+	content: "\E002";
+}
+
+.icon-app-case:before {
+	content: "\E003";
+}
+
+.icon-app-cash:before {
+	content: "\E004";
+}
+
+.icon-app-check:before {
+	content: "\E005";
+}
+
+.icon-app-cloud:before {
+	content: "\E006";
+}
+
+.icon-app-doc:before {
+	content: "\E007";
+}
+
+.icon-app-flag:before {
+	content: "\E008";
+}
+
+.icon-app-folder:before {
+	content: "\E009";
+}
+
+.icon-app-gear:before {
+	content: "\E00A";
+}
+
+.icon-app-globe:before {
+	content: "\E00B";
+}
+
+.icon-app-person:before {
+	content: "\E00C";
+}
+
+.icon-app-pointer:before {
+	content: "\E00D";
+}
+
+.icon-app-search:before {
+	content: "\E00E";
+}
+
+.icon-app-star:before {
+	content: "\E00F";
+}
+
+.icon-app-tag:before {
+	content: "\E010";
+}
