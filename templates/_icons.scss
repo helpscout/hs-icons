@@ -1,0 +1,32 @@
+// Icons
+// Default font path for hs-icons
+// Can be redefined to work with external @imports
+$HS-icon-font-path: '/dist/app/' !default;
+
+@font-face {
+	font-family: "<%= fontName %>";
+	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot');
+	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
+		url('#{$HS-icon-font-path}/<%= fontName %>.woff2') format('woff2'),
+		url('#{$HS-icon-font-path}/<%= fontName %>.woff') format('woff'),
+		url('#{$HS-icon-font-path}/<%= fontName %>.ttf') format('truetype'),
+		url('#{$HS-icon-font-path}/<%= fontName %>.svg#<%= fontName %>') format('svg');
+}
+
+.<%= cssClass %>:before {
+	font-family: "<%= fontName %>";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+<% _.each(glyphs, function(glyph) { %>
+.<%= cssClass %>-<%= glyph.fileName %>:before {
+	content: "\<%= glyph.codePoint %>";
+}
+<% }); %>

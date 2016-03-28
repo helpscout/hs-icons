@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Help Scout Icons</title>
+    <link rel="stylesheet" href="icons.css">
+  </head>
+  <body>
+    <div class="c-icon-list">
+      <% _.each(glyphs, function(glyph) { %>
+      <div class="c-icon-list__item">
+        <i class="icon icon-<%= glyph.name %>"></i>
+        <span>.icon-<%= glyph.name %></span>
+      </div>
+      <% }); %>
+    </div>
+  </body>
+</html>

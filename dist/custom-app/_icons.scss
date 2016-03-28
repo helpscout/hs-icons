@@ -1,11 +1,16 @@
+// Icons
+// Default font path for hs-icons
+// Can be redefined to work with external @imports
+$HS-icon-font-path: '/dist/app/' !default;
+
 @font-face {
 	font-family: "hs-custom-app-icon";
-	src: url('hs-custom-app-icon.eot');
-	src: url('hs-custom-app-icon.eot?#iefix') format('eot'),
-		url('hs-custom-app-icon.woff2') format('woff2'),
-		url('hs-custom-app-icon.woff') format('woff'),
-		url('hs-custom-app-icon.ttf') format('truetype'),
-		url('hs-custom-app-icon.svg#hs-custom-app-icon') format('svg');
+	src: url('#{$HS-icon-font-path}/hs-custom-app-icon.eot');
+	src: url('#{$HS-icon-font-path}/hs-custom-app-icon.eot?#iefix') format('eot'),
+		url('#{$HS-icon-font-path}/hs-custom-app-icon.woff2') format('woff2'),
+		url('#{$HS-icon-font-path}/hs-custom-app-icon.woff') format('woff'),
+		url('#{$HS-icon-font-path}/hs-custom-app-icon.ttf') format('truetype'),
+		url('#{$HS-icon-font-path}/hs-custom-app-icon.svg#hs-custom-app-icon') format('svg');
 }
 
 .icon:before {
