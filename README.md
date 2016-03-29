@@ -59,6 +59,7 @@ The folder's name (e.g. `awesome`) will be used as the name of the icon font, an
 Example:
 ```
 checkmark.svg -> .icon-checkmark
+```
 
 
 ##### Building
