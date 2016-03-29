@@ -41,40 +41,36 @@ gulp.task('iconfont', ['clean'], function() {
     var destPath = path.join('dist', dir);
 
     var iconStream = gulp.src(srcPath)
-      .pipe(iconfont({ fontName: iconName }));
-
-    // SASS
-    gulp.src(srcPath)
-      .pipe(iconfontCss({
+      .pipe(iconfont({ 
         fontName: iconName,
-        path: 'templates/_icons.scss',
-        targetPath: '_icons.scss',
-        cssClass: 'icon'
-      }))
-      .pipe(iconfont({
-        fontName: iconName
-       }))
-      .pipe(gulp.dest(destPath));
-
-
-    // CSS
-    gulp.src(srcPath)
-      .pipe(iconfontCss({
-        fontName: iconName,
-        targetPath: 'icons.css',
-        fontPath: '',
-        cssClass: 'icon'
-      }))
-      .pipe(iconfont({
-        fontName: iconName
-       }))
-      .pipe(gulp.dest(destPath));
+        formats: ['svg', 'ttf', 'eot', 'woff', 'woff2']
+      }));
 
     // HTML + MD
     async.parallel([
       function handleGlyphs (cb) {
         iconStream.on('glyphs', function(glyphs, options) {
-          
+
+          // SCSS
+          gulp.src('templates/_icons.scss')
+            .pipe(consolidate('lodash', {
+              glyphs: glyphs,
+              fontName: iconName,
+              fontDir: dir,
+              cssClass: 'icon'
+            }))
+            .pipe(gulp.dest(destPath));
+
+          // CSS
+          gulp.src('templates/icons.css')
+            .pipe(consolidate('lodash', {
+              glyphs: glyphs,
+              fontName: iconName,
+              fontDir: dir,
+              cssClass: 'icon'
+            }))
+            .pipe(gulp.dest(destPath));
+
           // HTML
           gulp.src('templates/preview.html')
             .pipe(consolidate('lodash', {
@@ -90,6 +86,11 @@ gulp.task('iconfont', ['clean'], function() {
             }))
             .pipe(gulp.dest(destPath));
         });
+      },
+
+      function handleFonts(cb) {
+        iconStream
+          .pipe(gulp.dest(destPath + '/fonts'));
       }
     ]);
 

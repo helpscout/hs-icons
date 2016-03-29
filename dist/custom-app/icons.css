@@ -1,86 +1,90 @@
 @font-face {
 	font-family: "hs-custom-app";
-	src: url('hs-custom-app.eot');
-	src: url('hs-custom-app.eot?#iefix') format('eot'),
-		url('hs-custom-app.woff2') format('woff2'),
-		url('hs-custom-app.woff') format('woff'),
-		url('hs-custom-app.ttf') format('truetype'),
-		url('hs-custom-app.svg#hs-custom-app') format('svg');
+	src: url('fonts/hs-custom-app.eot');
+	src: url('fonts/hs-custom-app.eot?#iefix') format('eot'),
+		url('fonts/hs-custom-app.woff2') format('woff2'),
+		url('fonts/hs-custom-app.woff') format('woff'),
+		url('fonts/hs-custom-app.ttf') format('truetype'),
+		url('fonts/hs-custom-app.svg#hs-custom-app') format('svg');
 }
 
 .icon:before {
-	font-family: "hs-custom-app";
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-	text-decoration: none;
-	text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  font-family: "hs-custom-app";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
 }
 
 
 .icon-app-arrow:before {
-	content: "\E001";
+	content: "\EA01";
 }
 
 .icon-app-cart:before {
-	content: "\E002";
+	content: "\EA02";
 }
 
 .icon-app-case:before {
-	content: "\E003";
+	content: "\EA03";
 }
 
 .icon-app-cash:before {
-	content: "\E004";
+	content: "\EA04";
 }
 
 .icon-app-check:before {
-	content: "\E005";
+	content: "\EA05";
 }
 
 .icon-app-cloud:before {
-	content: "\E006";
+	content: "\EA06";
 }
 
 .icon-app-doc:before {
-	content: "\E007";
+	content: "\EA07";
 }
 
 .icon-app-flag:before {
-	content: "\E008";
+	content: "\EA08";
 }
 
 .icon-app-folder:before {
-	content: "\E009";
+	content: "\EA09";
 }
 
 .icon-app-gear:before {
-	content: "\E00A";
+	content: "\EA0A";
 }
 
 .icon-app-globe:before {
-	content: "\E00B";
+	content: "\EA0B";
 }
 
 .icon-app-person:before {
-	content: "\E00C";
+	content: "\EA0C";
 }
 
 .icon-app-pointer:before {
-	content: "\E00D";
+	content: "\EA0D";
 }
 
 .icon-app-search:before {
-	content: "\E00E";
+	content: "\EA0E";
 }
 
 .icon-app-star:before {
-	content: "\E00F";
+	content: "\EA0F";
 }
 
 .icon-app-tag:before {
-	content: "\E010";
+	content: "\EA10";
 }
+

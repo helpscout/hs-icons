@@ -1,7 +1,7 @@
 // Icons
 // Default font path for hs-icons
 // Can be redefined to work with external @imports
-$HS-icon-font-path: '/dist/app/' !default;
+$HS-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 
 @font-face {
 	font-family: "<%= fontName %>";
@@ -9,24 +9,27 @@ $HS-icon-font-path: '/dist/app/' !default;
 	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
 		url('#{$HS-icon-font-path}/<%= fontName %>.woff2') format('woff2'),
 		url('#{$HS-icon-font-path}/<%= fontName %>.woff') format('woff'),
-		url('#{$HS-icon-font-path}/<%= fontName %>.ttf') format('truetype'),
+		url('#{$HS-icon-font-path}/<%= fontName %>.ttf') format('truetype');
 		url('#{$HS-icon-font-path}/<%= fontName %>.svg#<%= fontName %>') format('svg');
 }
 
 .<%= cssClass %>:before {
-	font-family: "<%= fontName %>";
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-	text-decoration: none;
-	text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  font-family: "<%= fontName %>";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
 }
 
 <% _.each(glyphs, function(glyph) { %>
-.<%= cssClass %>-<%= glyph.fileName %>:before {
-	content: "\<%= glyph.codePoint %>";
+.<%= cssClass %>-<%= glyph.name%>:before {
+	content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>";
 }
 <% }); %>
