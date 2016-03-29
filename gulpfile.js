@@ -89,6 +89,12 @@ gulp.task('test', function(done) {
             fontName: 'myfont',
             className: 's'
           }))
+          .pipe(gulp.dest('dist/app/'));
+
+        gulp.src('templates/icons.md')
+          .pipe(consolidate('lodash', {
+            glyphs: glyphs
+          }))
           .pipe(gulp.dest('dist/app/'))
           .on('finish', cb);
       });
