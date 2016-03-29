@@ -1,6 +1,7 @@
 {
   "name": "hs-icons",
   "description": "Help Scout's icon fonts",
+  "version": "0.0.1",
   "main": "index.js",
   "authors": [
     "ItsJonQ <itsjonq@gmail.com>"
@@ -14,6 +15,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "version": "0.0.1"
+  ]
 }
