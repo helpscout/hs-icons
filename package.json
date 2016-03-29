@@ -1,8 +1,7 @@
 {
   "name": "hs-icons",
-  "summary": "Help Scout's icon fonts",
+  "description": "Help Scout's icon fonts",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
