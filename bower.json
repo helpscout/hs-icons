@@ -1,0 +1,18 @@
+{
+  "name": "hs-icons",
+  "description": "Help Scout's icon fonts",
+  "main": "index.js",
+  "authors": [
+    "ItsJonQ <itsjonq@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/helpscout/hs-icons",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

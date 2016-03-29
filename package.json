@@ -1,22 +1,23 @@
 {
   "name": "hs-icons",
-  "version": "1.0.0",
+  "summary": "Help Scout's icon fonts",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "authors": [
+    "ItsJonQ <itsjonq@gmail.com>"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "async": "^2.0.0-rc.2",
     "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^6.0.0",
     "gulp-iconfont-css": "^2.1.0"
-  },
-  "dependencies": {
-    "del": "^2.2.0"
   }
 }
