@@ -4,17 +4,17 @@
 $HS-icon-font-path: '/dist/app/' !default;
 
 @font-face {
-	font-family: "hs-app-icon";
-	src: url('#{$HS-icon-font-path}/hs-app-icon.eot');
-	src: url('#{$HS-icon-font-path}/hs-app-icon.eot?#iefix') format('eot'),
-		url('#{$HS-icon-font-path}/hs-app-icon.woff2') format('woff2'),
-		url('#{$HS-icon-font-path}/hs-app-icon.woff') format('woff'),
-		url('#{$HS-icon-font-path}/hs-app-icon.ttf') format('truetype'),
-		url('#{$HS-icon-font-path}/hs-app-icon.svg#hs-app-icon') format('svg');
+	font-family: "hs-app";
+	src: url('#{$HS-icon-font-path}/hs-app.eot');
+	src: url('#{$HS-icon-font-path}/hs-app.eot?#iefix') format('eot'),
+		url('#{$HS-icon-font-path}/hs-app.woff2') format('woff2'),
+		url('#{$HS-icon-font-path}/hs-app.woff') format('woff'),
+		url('#{$HS-icon-font-path}/hs-app.ttf') format('truetype'),
+		url('#{$HS-icon-font-path}/hs-app.svg#hs-app') format('svg');
 }
 
 .icon:before {
-	font-family: "hs-app-icon";
+	font-family: "hs-app";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	font-style: normal;

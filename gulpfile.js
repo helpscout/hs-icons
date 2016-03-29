@@ -1,13 +1,27 @@
-var async         = require('async');
 var gulp          = require('gulp');
+var fs            = require('fs');
+var path          = require('path');
+var async         = require('async');
 var iconfont      = require('gulp-iconfont');
 var iconfontCss   = require('gulp-iconfont-css');
-var runTimestamp  = Math.round(Date.now()/1000);
 var del           = require('del');
 var consolidate   = require('gulp-consolidate');
 
 
+// Methods
+function getFolders(dir) {
+  return fs.readdirSync(dir)
+    .filter(function(file) {
+      return fs.statSync(path.join(dir, file)).isDirectory();
+    });
+}
+
+
 // Clean
+gulp.task('clean', function(fn) {
+  return del(['dist'], fn);
+});
+
 gulp.task('clean-app', function(fn) {
   return del(['dist/app'], fn);
 });
@@ -17,62 +31,69 @@ gulp.task('clean-custom-app', function(fn) {
 });
 
 
-// Icon fonts
-var iconAppName = 'hs-app-icon';
-var iconCustomAppName = 'hs-custom-app-icon';
+// Font Icon Building
+gulp.task('iconfont', ['clean'], function() {
+  var directories= getFolders('src');
+  
+  directories.forEach(function(dir) {
+    var iconName = 'hs-' + dir;
+    var srcPath = path.join('src', dir, '*.svg');
+    var destPath = path.join('dist', dir);
+
+    var iconStream = gulp.src(srcPath)
+      .pipe(iconfont({ fontName: iconName }));
+
+    // SASS
+    gulp.src(srcPath)
+      .pipe(iconfontCss({
+        fontName: iconName,
+        path: 'templates/_icons.scss',
+        targetPath: '_icons.scss',
+        cssClass: 'icon'
+      }))
+      .pipe(iconfont({
+        fontName: iconName
+       }))
+      .pipe(gulp.dest(destPath));
 
 
-gulp.task('iconfont-app', ['clean-app'], function(){
-  gulp.src(['src/app/*.svg'])
-    .pipe(iconfontCss({
-      fontName: iconAppName,
-      path: 'templates/_icons.scss',
-      targetPath: '_icons.scss',
-      cssClass: 'icon'
-    }))
-    .pipe(iconfont({
-      fontName: iconAppName
-     }))
-    .pipe(gulp.dest('dist/app/'));
+    // CSS
+    gulp.src(srcPath)
+      .pipe(iconfontCss({
+        fontName: iconName,
+        targetPath: 'icons.css',
+        fontPath: '',
+        cssClass: 'icon'
+      }))
+      .pipe(iconfont({
+        fontName: iconName
+       }))
+      .pipe(gulp.dest(destPath));
 
-  gulp.src(['src/app/*.svg'])
-    .pipe(iconfontCss({
-      fontName: iconAppName,
-      targetPath: 'icons.css',
-      fontPath: '',
-      cssClass: 'icon'
-    }))
-    .pipe(iconfont({
-      fontName: iconAppName
-     }))
-    .pipe(gulp.dest('dist/app/'));
-});
+    // HTML + MD
+    async.parallel([
+      function handleGlyphs (cb) {
+        iconStream.on('glyphs', function(glyphs, options) {
+          
+          // HTML
+          gulp.src('templates/preview.html')
+            .pipe(consolidate('lodash', {
+              glyphs: glyphs,
+              fontName: iconName
+            }))
+            .pipe(gulp.dest(destPath));
 
+          // MD
+          gulp.src('templates/icons.md')
+            .pipe(consolidate('lodash', {
+              glyphs: glyphs
+            }))
+            .pipe(gulp.dest(destPath));
+        });
+      }
+    ]);
 
-gulp.task('iconfont-custom-app', ['clean-custom-app'], function(){
-  gulp.src(['src/custom-app/*.svg'])
-    .pipe(iconfontCss({
-      fontName: iconCustomAppName,
-      path: 'templates/_icons.scss',
-      targetPath: '_icons.scss',
-      cssClass: 'icon'
-    }))
-    .pipe(iconfont({
-      fontName: iconCustomAppName
-     }))
-    .pipe(gulp.dest('dist/custom-app/'));
-
-  gulp.src(['src/custom-app/*.svg'])
-    .pipe(iconfontCss({
-      fontName: iconCustomAppName,
-      targetPath: 'icons.css',
-      fontPath: '',
-      cssClass: 'icon'
-    }))
-    .pipe(iconfont({
-      fontName: iconCustomAppName
-     }))
-    .pipe(gulp.dest('dist/custom-app/'));
+  });
 });
 
 
@@ -104,5 +125,12 @@ gulp.task('test', function(done) {
 
 
 
+// Watch
+gulp.task('watch', function() {
+  gulp.watch(['src/**/*.svg'],
+    ['iconfont']);
+});
+
+
 // Tasks
-gulp.task('default', ['iconfont-app', 'iconfont-custom-app']);
+gulp.task('default', ['iconfont', 'watch']);

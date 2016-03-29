@@ -1,15 +1,15 @@
 @font-face {
-	font-family: "hs-app-icon";
-	src: url('hs-app-icon.eot');
-	src: url('hs-app-icon.eot?#iefix') format('eot'),
-		url('hs-app-icon.woff2') format('woff2'),
-		url('hs-app-icon.woff') format('woff'),
-		url('hs-app-icon.ttf') format('truetype'),
-		url('hs-app-icon.svg#hs-app-icon') format('svg');
+	font-family: "hs-app";
+	src: url('hs-app.eot');
+	src: url('hs-app.eot?#iefix') format('eot'),
+		url('hs-app.woff2') format('woff2'),
+		url('hs-app.woff') format('woff'),
+		url('hs-app.ttf') format('truetype'),
+		url('hs-app.svg#hs-app') format('svg');
 }
 
 .icon:before {
-	font-family: "hs-app-icon";
+	font-family: "hs-app";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	font-style: normal;

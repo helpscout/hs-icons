@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "async": "^2.0.0-rc.2",
+    "browser-sync": "^2.11.2",
     "gulp": "^3.9.1",
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^6.0.0",

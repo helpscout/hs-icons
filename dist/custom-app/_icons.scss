@@ -4,17 +4,17 @@
 $HS-icon-font-path: '/dist/app/' !default;
 
 @font-face {
-	font-family: "hs-custom-app-icon";
-	src: url('#{$HS-icon-font-path}/hs-custom-app-icon.eot');
-	src: url('#{$HS-icon-font-path}/hs-custom-app-icon.eot?#iefix') format('eot'),
-		url('#{$HS-icon-font-path}/hs-custom-app-icon.woff2') format('woff2'),
-		url('#{$HS-icon-font-path}/hs-custom-app-icon.woff') format('woff'),
-		url('#{$HS-icon-font-path}/hs-custom-app-icon.ttf') format('truetype'),
-		url('#{$HS-icon-font-path}/hs-custom-app-icon.svg#hs-custom-app-icon') format('svg');
+	font-family: "hs-custom-app";
+	src: url('#{$HS-icon-font-path}/hs-custom-app.eot');
+	src: url('#{$HS-icon-font-path}/hs-custom-app.eot?#iefix') format('eot'),
+		url('#{$HS-icon-font-path}/hs-custom-app.woff2') format('woff2'),
+		url('#{$HS-icon-font-path}/hs-custom-app.woff') format('woff'),
+		url('#{$HS-icon-font-path}/hs-custom-app.ttf') format('truetype'),
+		url('#{$HS-icon-font-path}/hs-custom-app.svg#hs-custom-app') format('svg');
 }
 
 .icon:before {
-	font-family: "hs-custom-app-icon";
+	font-family: "hs-custom-app";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	font-style: normal;
