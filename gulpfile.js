@@ -98,4 +98,4 @@ gulp.task('watch', function() {
 
 
 // Tasks
-gulp.task('default', ['iconfont', 'watch']);
+gulp.task('default', ['iconfont']);
