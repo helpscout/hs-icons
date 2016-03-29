@@ -22,14 +22,6 @@ gulp.task('clean', function(fn) {
   return del(['dist'], fn);
 });
 
-gulp.task('clean-app', function(fn) {
-  return del(['dist/app'], fn);
-});
-
-gulp.task('clean-custom-app', function(fn) {
-  return del(['dist/custom-app'], fn);
-});
-
 
 // Font Icon Building
 gulp.task('iconfont', ['clean'], function() {
@@ -96,34 +88,6 @@ gulp.task('iconfont', ['clean'], function() {
 
   });
 });
-
-
-gulp.task('test', function(done) {
-  var iconStream = gulp.src(['src/app/*.svg'])
-    .pipe(iconfont({ fontName: 'myfont' }));
-
-  async.parallel([
-    function handleGlyphs (cb) {
-      iconStream.on('glyphs', function(glyphs, options) {
-        gulp.src('templates/preview.html')
-          .pipe(consolidate('lodash', {
-            glyphs: glyphs,
-            fontName: 'myfont',
-            className: 's'
-          }))
-          .pipe(gulp.dest('dist/app/'));
-
-        gulp.src('templates/icons.md')
-          .pipe(consolidate('lodash', {
-            glyphs: glyphs
-          }))
-          .pipe(gulp.dest('dist/app/'))
-          .on('finish', cb);
-      });
-    }
-  ], done);
-});
-
 
 
 // Watch
