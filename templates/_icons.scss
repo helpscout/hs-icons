@@ -9,7 +9,7 @@ $HS-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
 		url('#{$HS-icon-font-path}/<%= fontName %>.woff2') format('woff2'),
 		url('#{$HS-icon-font-path}/<%= fontName %>.woff') format('woff'),
-		url('#{$HS-icon-font-path}/<%= fontName %>.ttf') format('truetype');
+		url('#{$HS-icon-font-path}/<%= fontName %>.ttf') format('truetype'),
 		url('#{$HS-icon-font-path}/<%= fontName %>.svg#<%= fontName %>') format('svg');
 }
 

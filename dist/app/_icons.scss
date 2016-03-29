@@ -9,7 +9,7 @@ $HS-icon-font-path: '/dist/hs-app/fonts' !default;
 	src: url('#{$HS-icon-font-path}/hs-app.eot?#iefix') format('eot'),
 		url('#{$HS-icon-font-path}/hs-app.woff2') format('woff2'),
 		url('#{$HS-icon-font-path}/hs-app.woff') format('woff'),
-		url('#{$HS-icon-font-path}/hs-app.ttf') format('truetype');
+		url('#{$HS-icon-font-path}/hs-app.ttf') format('truetype'),
 		url('#{$HS-icon-font-path}/hs-app.svg#hs-app') format('svg');
 }
 
