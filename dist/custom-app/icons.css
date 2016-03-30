@@ -8,7 +8,7 @@
 		url('fonts/hs-custom-app.svg#hs-custom-app') format('svg');
 }
 
-.icon:before {
+.icon {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */

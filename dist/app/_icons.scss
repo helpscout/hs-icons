@@ -13,7 +13,7 @@ $HS-icon-font-path: '/dist/hs-app/fonts' !default;
 		url('#{$HS-icon-font-path}/hs-app.svg#hs-app') format('svg');
 }
 
-.icon:before {
+.icon {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
