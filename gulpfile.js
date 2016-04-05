@@ -112,6 +112,7 @@ var generateBase64 = function(path, file) {
   return gulp.src(path + file)
     .pipe(base64({
       extensions: ['woff', 'eot'],
+      maxImageSize: 500000
     }))
     .pipe(gulp.dest(path));
 };
