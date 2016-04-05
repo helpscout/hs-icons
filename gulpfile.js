@@ -5,7 +5,6 @@ var consolidate   = require('gulp-consolidate');
 var del           = require('del');
 var fs            = require('fs');
 var iconfont      = require('gulp-iconfont');
-var iconfontCss   = require('gulp-iconfont-css');
 var path          = require('path');
 var rename        = require('gulp-rename');
 var runSequence   = require('run-sequence');
