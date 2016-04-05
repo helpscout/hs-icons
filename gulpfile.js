@@ -1,11 +1,14 @@
 var gulp          = require('gulp');
-var fs            = require('fs');
-var path          = require('path');
 var async         = require('async');
+var base64        = require('gulp-base64');
+var consolidate   = require('gulp-consolidate');
+var del           = require('del');
+var fs            = require('fs');
 var iconfont      = require('gulp-iconfont');
 var iconfontCss   = require('gulp-iconfont-css');
-var del           = require('del');
-var consolidate   = require('gulp-consolidate');
+var path          = require('path');
+var rename        = require('gulp-rename');
+var runSequence   = require('run-sequence');
 
 
 // Methods
@@ -19,15 +22,15 @@ function getFolders(dir) {
 
 // Clean
 gulp.task('clean', function(fn) {
-  return del(['dist'], fn);
+  return del(['dist/**/*'], fn);
 });
 
 
 // Font Icon Building
-gulp.task('iconfont', ['clean'], function() {
+gulp.task('font-icon', function(fn) {
   var directories= getFolders('src');
-  
-  directories.forEach(function(dir) {
+
+  directories.forEach(function(dir, index) {
     var iconName = 'hs-' + dir;
     var srcPath = path.join('src', dir, '*.svg');
     var destPath = path.join('dist', dir);
@@ -35,12 +38,12 @@ gulp.task('iconfont', ['clean'], function() {
     var iconStream = gulp.src(srcPath)
       .pipe(iconfont({ 
         fontName: iconName,
-        formats: ['svg', 'ttf', 'eot', 'woff', 'woff2']
+        formats: ['woff', 'eot']
       }));
 
-    // HTML + MD
     async.parallel([
       function handleGlyphs (cb) {
+        // HTML + MD
         iconStream.on('glyphs', function(glyphs, options) {
 
           // SCSS
@@ -79,23 +82,49 @@ gulp.task('iconfont', ['clean'], function() {
             .pipe(gulp.dest(destPath));
         });
       },
-
       function handleFonts(cb) {
         iconStream
-          .pipe(gulp.dest(destPath + '/fonts'));
+          .pipe(gulp.dest(destPath + '/fonts'))
+          .on('end', function() {
+            // Base64 font injection
+            var _destPath = destPath + '/';
+            generateBase64(_destPath, '*.css');
+            generateBase64(_destPath, '*.scss');
+          });
       }
     ]);
-
   });
 });
+
+
+// Generate Base64
+var generateBase64 = function(path, file) {
+  if(!path || !file) {
+    return false;
+  }
+
+  return gulp.src(path + file)
+    .pipe(base64({
+      extensions: ['woff', 'eot'],
+    }))
+    .pipe(gulp.dest(path));
+};
+
 
 
 // Watch
 gulp.task('watch', function() {
   gulp.watch(['src/**/*.svg'],
-    ['iconfont']);
+    ['generate-font']);
+});
+
+
+
+// Build tasks
+gulp.task('generate-font', function(fn) {
+  runSequence('clean', 'font-icon', fn);
 });
 
 
 // Tasks
-gulp.task('default', ['iconfont']);
+gulp.task('default', ['generate-font']);

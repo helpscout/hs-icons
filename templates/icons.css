@@ -2,10 +2,7 @@
 	font-family: "<%= fontName %>";
 	src: url('fonts/<%= fontName %>.eot');
 	src: url('fonts/<%= fontName %>.eot?#iefix') format('eot'),
-		url('fonts/<%= fontName %>.woff2') format('woff2'),
-		url('fonts/<%= fontName %>.woff') format('woff'),
-		url('fonts/<%= fontName %>.ttf') format('truetype'),
-		url('fonts/<%= fontName %>.svg#<%= fontName %>') format('svg');
+		url('fonts/<%= fontName %>.woff') format('woff');
 }
 
 .<%= cssClass %> {
