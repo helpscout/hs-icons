@@ -25,6 +25,11 @@ gulp.task('clean', function(fn) {
   return del(['dist/**/*'], fn);
 });
 
+gulp.task('clean-woff', function(fn) {
+  return del(['dist/**/*.woff'], fn);
+});
+
+
 
 // Font Icon Building
 gulp.task('font-icon', function(fn) {
@@ -90,6 +95,7 @@ gulp.task('font-icon', function(fn) {
             var _destPath = destPath + '/';
             generateBase64(_destPath, '*.css');
             generateBase64(_destPath, '*.scss');
+            gulp.start('clean-woff');
           });
       }
     ]);
