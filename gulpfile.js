@@ -42,6 +42,7 @@ gulp.task('font-icon', function(fn) {
     var iconStream = gulp.src(srcPath)
       .pipe(iconfont({ 
         fontName: iconName,
+        normalize: true,
         formats: ['woff', 'eot']
       }));
 

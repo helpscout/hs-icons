@@ -41,6 +41,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-arrow"></i>
+    <span>.icon-arrow</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-attach-1"></i>
     <span>.icon-attach-1</span>
   </div>
@@ -53,6 +58,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-attach-3"></i>
     <span>.icon-attach-3</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-attach"></i>
+    <span>.icon-attach</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -91,13 +101,28 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-chat-lg"></i>
-    <span>.icon-chat-lg</span>
+    <i class="icon icon-cart"></i>
+    <span>.icon-cart</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-case"></i>
+    <span>.icon-case</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-cash"></i>
+    <span>.icon-cash</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-chat-sm"></i>
     <span>.icon-chat-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-chat"></i>
+    <span>.icon-chat</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -121,6 +146,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-check4"></i>
+    <span>.icon-check4</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-close1"></i>
     <span>.icon-close1</span>
   </div>
@@ -131,13 +161,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-compass"></i>
-    <span>.icon-compass</span>
+    <i class="icon icon-cloud"></i>
+    <span>.icon-cloud</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-computer"></i>
-    <span>.icon-computer</span>
+    <i class="icon icon-compass"></i>
+    <span>.icon-compass</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -156,6 +186,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-doc"></i>
+    <span>.icon-doc</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-download"></i>
     <span>.icon-download</span>
   </div>
@@ -166,18 +201,18 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-edit-lg"></i>
-    <span>.icon-edit-lg</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-email-lg"></i>
-    <span>.icon-email-lg</span>
+    <i class="icon icon-edit"></i>
+    <span>.icon-edit</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-email-sm"></i>
     <span>.icon-email-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-email"></i>
+    <span>.icon-email</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -201,13 +236,23 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-fl"></i>
+    <span>.icon-fl</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-flag"></i>
     <span>.icon-flag</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-flickr"></i>
-    <span>.icon-flickr</span>
+    <i class="icon icon-flag2"></i>
+    <span>.icon-flag2</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-folder-private"></i>
+    <span>.icon-folder-private</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -216,18 +261,33 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-folder2"></i>
+    <span>.icon-folder2</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-format"></i>
     <span>.icon-format</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-foursquare"></i>
-    <span>.icon-foursquare</span>
+    <i class="icon icon-fs"></i>
+    <span>.icon-fs</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-gear"></i>
     <span>.icon-gear</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-gear2"></i>
+    <span>.icon-gear2</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-globe"></i>
+    <span>.icon-globe</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -243,6 +303,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-help"></i>
     <span>.icon-help</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-helpscout-sm"></i>
+    <span>.icon-helpscout-sm</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -281,6 +346,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-img-ndd"></i>
+    <span>.icon-img-ndd</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-img-vid"></i>
     <span>.icon-img-vid</span>
   </div>
@@ -306,6 +376,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-li"></i>
+    <span>.icon-li</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-link-dd"></i>
     <span>.icon-link-dd</span>
   </div>
@@ -313,11 +388,6 @@
   <div class="c-icon-list__item">
     <i class="icon icon-link"></i>
     <span>.icon-link</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-linkedin"></i>
-    <span>.icon-linkedin</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -361,8 +431,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-move"></i>
-    <span>.icon-move</span>
+    <i class="icon icon-meter"></i>
+    <span>.icon-meter</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-monitor"></i>
+    <span>.icon-monitor</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -381,11 +456,6 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-nxt"></i>
-    <span>.icon-nxt</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-options"></i>
     <span>.icon-options</span>
   </div>
@@ -398,6 +468,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-person-dd"></i>
     <span>.icon-person-dd</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-person"></i>
+    <span>.icon-person</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -416,8 +491,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-phone-2"></i>
-    <span>.icon-phone-2</span>
+    <i class="icon icon-phone-sm"></i>
+    <span>.icon-phone-sm</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -431,18 +506,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-popularity"></i>
-    <span>.icon-popularity</span>
+    <i class="icon icon-pointer"></i>
+    <span>.icon-pointer</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-popup"></i>
     <span>.icon-popup</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-prev"></i>
-    <span>.icon-prev</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -456,13 +526,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-private-folder"></i>
-    <span>.icon-private-folder</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-quora"></i>
-    <span>.icon-quora</span>
+    <i class="icon icon-qu"></i>
+    <span>.icon-qu</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -511,6 +576,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-search2"></i>
+    <span>.icon-search2</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-skype"></i>
     <span>.icon-skype</span>
   </div>
@@ -521,6 +591,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-star"></i>
+    <span>.icon-star</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-table"></i>
     <span>.icon-table</span>
   </div>
@@ -528,6 +603,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-tag"></i>
     <span>.icon-tag</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-tag2"></i>
+    <span>.icon-tag2</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -566,8 +646,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-youtube"></i>
-    <span>.icon-youtube</span>
+    <i class="icon icon-yt"></i>
+    <span>.icon-yt</span>
   </div>
   
 </div>
