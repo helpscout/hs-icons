@@ -5,8 +5,8 @@ $HS-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 
 @font-face {
 	font-family: "<%= fontName %>";
-	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot');
-	src: url('#{$HS-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
+	src: url('#{$hs-icon-font-path}/<%= fontName %>.eot');
+	src: url('#{$hs-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
 		url('fonts/<%= fontName %>.woff') format('woff');
 }
 
