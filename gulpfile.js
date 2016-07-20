@@ -40,10 +40,11 @@ gulp.task('font-icon', function(fn) {
     var destPath = path.join('dist', dir);
 
     var iconStream = gulp.src(srcPath)
-      .pipe(iconfont({ 
+      .pipe(iconfont({
+        fontHeight: 1200,
         fontName: iconName,
-        normalize: true,
-        formats: ['woff', 'eot']
+        formats: ['woff', 'eot'],
+        normalize: true
       }));
 
     async.parallel([
