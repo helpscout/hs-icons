@@ -6,10 +6,7 @@
 <style type="text/css">
 	.st0{fill:#A5B2BD;}
 	.st1{fill:#3197D6;}
-	.st2{fill:none;stroke:#727F8E;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:#000102;}
-	.st4{fill:#727F8E;}
-	.st5{fill:none;stroke:#727F8E;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#010101;}
 </style>
 <g>
 	<path d="M16.5,4.2c-0.5-0.3-1.1-0.1-1.4,0.4C14.9,5,15,5.7,15.5,5.9C17.7,7.2,19,9.5,19,12c0,3.9-3.1,7-7,7s-7-3.1-7-7

@@ -6,10 +6,7 @@
 <style type="text/css">
 	.st0{fill:#A5B2BD;}
 	.st1{fill:#3197D6;}
-	.st2{fill:none;stroke:#727F8E;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:#000102;}
-	.st4{fill:#727F8E;}
-	.st5{fill:none;stroke:#727F8E;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#010101;}
 </style>
-<circle cx="12" cy="12" r="3"/>
+<circle cx="12" cy="12" r="2"/>
 </svg>
