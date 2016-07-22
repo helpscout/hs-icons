@@ -1,12 +1,12 @@
 // Icons
 // Default font path for hs-icons
 // Can be redefined to work with external @imports
-$HS-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
+$<%= fontName %>-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 
 @font-face {
 	font-family: "<%= fontName %>";
-	src: url('#{$hs-icon-font-path}/<%= fontName %>.eot');
-	src: url('#{$hs-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
+	src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot');
+	src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
 		url('fonts/<%= fontName %>.woff') format('woff');
 }
 

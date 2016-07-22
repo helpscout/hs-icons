@@ -35,7 +35,7 @@ gulp.task('font-icon', function(fn) {
   var directories= getFolders('src');
 
   directories.forEach(function(dir, index) {
-    var iconName = 'hs-' + dir;
+    var iconName = dir;
     var srcPath = path.join('src', dir, '*.svg');
     var destPath = path.join('dist', dir);
 
