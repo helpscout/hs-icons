@@ -1,23 +1,18 @@
 <div class="c-icon-list">
   
   <div class="c-icon-list__item">
-    <i class="icon icon-ab"></i>
-    <span>.icon-ab</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-add-note"></i>
     <span>.icon-add-note</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-add"></i>
-    <span>.icon-add</span>
+    <i class="icon icon-ab"></i>
+    <span>.icon-ab</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-add2"></i>
-    <span>.icon-add2</span>
+    <i class="icon icon-add"></i>
+    <span>.icon-add</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -36,6 +31,16 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-add2"></i>
+    <span>.icon-add2</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-attach-1"></i>
+    <span>.icon-attach-1</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-arrow-rt"></i>
     <span>.icon-arrow-rt</span>
   </div>
@@ -46,8 +51,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-attach-1"></i>
-    <span>.icon-attach-1</span>
+    <i class="icon icon-attach"></i>
+    <span>.icon-attach</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -61,18 +66,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-attach"></i>
-    <span>.icon-attach</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-attn"></i>
     <span>.icon-attn</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-audio"></i>
-    <span>.icon-audio</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -86,13 +81,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-bolt"></i>
-    <span>.icon-bolt</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-camera"></i>
-    <span>.icon-camera</span>
+    <i class="icon icon-audio"></i>
+    <span>.icon-audio</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -106,13 +96,18 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-camera"></i>
+    <span>.icon-camera</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-case"></i>
     <span>.icon-case</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-cash"></i>
-    <span>.icon-cash</span>
+    <i class="icon icon-bolt"></i>
+    <span>.icon-bolt</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -131,6 +126,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-cash"></i>
+    <span>.icon-cash</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-check1"></i>
     <span>.icon-check1</span>
   </div>
@@ -141,8 +141,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-check3"></i>
-    <span>.icon-check3</span>
+    <i class="icon icon-close1"></i>
+    <span>.icon-close1</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -151,8 +151,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-close1"></i>
-    <span>.icon-close1</span>
+    <i class="icon icon-check3"></i>
+    <span>.icon-check3</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -196,18 +196,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-draft"></i>
-    <span>.icon-draft</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-edit"></i>
     <span>.icon-edit</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-email-sm"></i>
-    <span>.icon-email-sm</span>
+    <i class="icon icon-draft"></i>
+    <span>.icon-draft</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -216,18 +211,18 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-error"></i>
-    <span>.icon-error</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-fb"></i>
     <span>.icon-fb</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-filter"></i>
-    <span>.icon-filter</span>
+    <i class="icon icon-error"></i>
+    <span>.icon-error</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-email-sm"></i>
+    <span>.icon-email-sm</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -241,18 +236,13 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-filter"></i>
+    <span>.icon-filter</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-flag"></i>
     <span>.icon-flag</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-flag2"></i>
-    <span>.icon-flag2</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-folder-private"></i>
-    <span>.icon-folder-private</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -261,8 +251,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-folder2"></i>
-    <span>.icon-folder2</span>
+    <i class="icon icon-folder-private"></i>
+    <span>.icon-folder-private</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-flag2"></i>
+    <span>.icon-flag2</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -271,13 +266,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-fs"></i>
-    <span>.icon-fs</span>
+    <i class="icon icon-folder2"></i>
+    <span>.icon-folder2</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-gear"></i>
-    <span>.icon-gear</span>
+    <i class="icon icon-fs"></i>
+    <span>.icon-fs</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -286,13 +281,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-globe"></i>
-    <span>.icon-globe</span>
+    <i class="icon icon-go"></i>
+    <span>.icon-go</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-go"></i>
-    <span>.icon-go</span>
+    <i class="icon icon-globe"></i>
+    <span>.icon-globe</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -336,18 +331,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-icq"></i>
-    <span>.icon-icq</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-image"></i>
     <span>.icon-image</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-img-ndd"></i>
-    <span>.icon-img-ndd</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -366,6 +351,21 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-gear"></i>
+    <span>.icon-gear</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-img-ndd"></i>
+    <span>.icon-img-ndd</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-icq"></i>
+    <span>.icon-icq</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-italic"></i>
     <span>.icon-italic</span>
   </div>
@@ -381,16 +381,6 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-link-dd"></i>
-    <span>.icon-link-dd</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-link"></i>
-    <span>.icon-link</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-list-dd"></i>
     <span>.icon-list-dd</span>
   </div>
@@ -401,13 +391,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-list2"></i>
-    <span>.icon-list2</span>
+    <i class="icon icon-link"></i>
+    <span>.icon-link</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-lock"></i>
-    <span>.icon-lock</span>
+    <i class="icon icon-list2"></i>
+    <span>.icon-list2</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -416,18 +406,18 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-link-dd"></i>
+    <span>.icon-link-dd</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-megaphone"></i>
     <span>.icon-megaphone</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-merge"></i>
-    <span>.icon-merge</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-merge2"></i>
-    <span>.icon-merge2</span>
+    <i class="icon icon-lock"></i>
+    <span>.icon-lock</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -436,8 +426,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-monitor"></i>
-    <span>.icon-monitor</span>
+    <i class="icon icon-merge"></i>
+    <span>.icon-merge</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -466,13 +456,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-person-dd"></i>
-    <span>.icon-person-dd</span>
+    <i class="icon icon-merge2"></i>
+    <span>.icon-merge2</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-person"></i>
-    <span>.icon-person</span>
+    <i class="icon icon-person-dd"></i>
+    <span>.icon-person-dd</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -481,18 +471,28 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-monitor"></i>
+    <span>.icon-monitor</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-person2"></i>
     <span>.icon-person2</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-person3"></i>
-    <span>.icon-person3</span>
+    <i class="icon icon-person"></i>
+    <span>.icon-person</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-phone-sm"></i>
     <span>.icon-phone-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-person3"></i>
+    <span>.icon-person3</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -631,11 +631,6 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-view"></i>
-    <span>.icon-view</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-xmpp"></i>
     <span>.icon-xmpp</span>
   </div>
@@ -643,6 +638,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-yahoo"></i>
     <span>.icon-yahoo</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-view"></i>
+    <span>.icon-view</span>
   </div>
   
   <div class="c-icon-list__item">

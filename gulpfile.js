@@ -44,6 +44,7 @@ gulp.task('font-icon', function(fn) {
         fontHeight: 1200,
         fontName: iconName,
         formats: ['woff', 'eot'],
+        prependUnicode: true,
         normalize: true
       }));
 

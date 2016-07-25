@@ -1,13 +1,13 @@
 <div class="c-icon-list">
   
   <div class="c-icon-list__item">
-    <i class="icon icon-add-note"></i>
-    <span>.icon-add-note</span>
+    <i class="icon icon-alert"></i>
+    <span>.icon-alert</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-alert"></i>
-    <span>.icon-alert</span>
+    <i class="icon icon-add-note"></i>
+    <span>.icon-add-note</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -31,13 +31,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-attach-sm"></i>
-    <span>.icon-attach-sm</span>
+    <i class="icon icon-avatar-bdr"></i>
+    <span>.icon-avatar-bdr</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-attach"></i>
-    <span>.icon-attach</span>
+    <i class="icon icon-attach-sm"></i>
+    <span>.icon-attach-sm</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -46,8 +46,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-avatar-bdr"></i>
-    <span>.icon-avatar-bdr</span>
+    <i class="icon icon-attach"></i>
+    <span>.icon-attach</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -66,18 +66,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-back"></i>
-    <span>.icon-back</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-bell"></i>
     <span>.icon-bell</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-bold"></i>
-    <span>.icon-bold</span>
+    <i class="icon icon-back"></i>
+    <span>.icon-back</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -91,18 +86,23 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-bold"></i>
+    <span>.icon-bold</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-caret-right"></i>
     <span>.icon-caret-right</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-caret-up"></i>
-    <span>.icon-caret-up</span>
+    <i class="icon icon-cart"></i>
+    <span>.icon-cart</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-cart"></i>
-    <span>.icon-cart</span>
+    <i class="icon icon-caret-up"></i>
+    <span>.icon-caret-up</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -121,13 +121,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-check"></i>
-    <span>.icon-check</span>
+    <i class="icon icon-circle-check"></i>
+    <span>.icon-circle-check</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-circle-check"></i>
-    <span>.icon-circle-check</span>
+    <i class="icon icon-check"></i>
+    <span>.icon-check</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -141,23 +141,23 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-circle-down"></i>
-    <span>.icon-circle-down</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-circle-forward"></i>
-    <span>.icon-circle-forward</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-circle-minus"></i>
     <span>.icon-circle-minus</span>
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-circle-down"></i>
+    <span>.icon-circle-down</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-circle-stop"></i>
     <span>.icon-circle-stop</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-circle-forward"></i>
+    <span>.icon-circle-forward</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -171,28 +171,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-cloud"></i>
-    <span>.icon-cloud</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-connection"></i>
-    <span>.icon-connection</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-convo-check"></i>
-    <span>.icon-convo-check</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-convo-new"></i>
     <span>.icon-convo-new</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-copy"></i>
-    <span>.icon-copy</span>
+    <i class="icon icon-cloud"></i>
+    <span>.icon-cloud</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -201,13 +186,18 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-custom-fields"></i>
-    <span>.icon-custom-fields</span>
+    <i class="icon icon-connection"></i>
+    <span>.icon-connection</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-doc-arrow"></i>
     <span>.icon-doc-arrow</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-copy"></i>
+    <span>.icon-copy</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -221,8 +211,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-drafts"></i>
-    <span>.icon-drafts</span>
+    <i class="icon icon-custom-fields"></i>
+    <span>.icon-custom-fields</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -231,18 +221,18 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-convo-check"></i>
+    <span>.icon-convo-check</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-envelope-message"></i>
     <span>.icon-envelope-message</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-envelope"></i>
-    <span>.icon-envelope</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-eye-closed"></i>
-    <span>.icon-eye-closed</span>
+    <i class="icon icon-drafts"></i>
+    <span>.icon-drafts</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -251,18 +241,13 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-envelope"></i>
+    <span>.icon-envelope</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-flag"></i>
     <span>.icon-flag</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-folder-check"></i>
-    <span>.icon-folder-check</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-folder-closed"></i>
-    <span>.icon-folder-closed</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -271,18 +256,28 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-forward"></i>
-    <span>.icon-forward</span>
+    <i class="icon icon-folder-closed"></i>
+    <span>.icon-folder-closed</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-gear-sop"></i>
-    <span>.icon-gear-sop</span>
+    <i class="icon icon-eye-closed"></i>
+    <span>.icon-eye-closed</span>
   </div>
   
   <div class="c-icon-list__item">
     <i class="icon icon-gear"></i>
     <span>.icon-gear</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-folder-check"></i>
+    <span>.icon-folder-check</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-gear-sop"></i>
+    <span>.icon-gear-sop</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -296,13 +291,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-help"></i>
-    <span>.icon-help</span>
+    <i class="icon icon-hide-keyboard"></i>
+    <span>.icon-hide-keyboard</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-hide-keyboard"></i>
-    <span>.icon-hide-keyboard</span>
+    <i class="icon icon-forward"></i>
+    <span>.icon-forward</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -311,8 +306,53 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-help"></i>
+    <span>.icon-help</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_align-left"></i>
+    <span>.icon-hs-editor-icons-outlined_align-left</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-hours"></i>
     <span>.icon-hours</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_bold"></i>
+    <span>.icon-hs-editor-icons-outlined_bold</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_italic"></i>
+    <span>.icon-hs-editor-icons-outlined_italic</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_list"></i>
+    <span>.icon-hs-editor-icons-outlined_list</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_align-center"></i>
+    <span>.icon-hs-editor-icons-outlined_align-center</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_align-right"></i>
+    <span>.icon-hs-editor-icons-outlined_align-right</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_table"></i>
+    <span>.icon-hs-editor-icons-outlined_table</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-hs-editor-icons-outlined_underline"></i>
+    <span>.icon-hs-editor-icons-outlined_underline</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -336,11 +376,6 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-image"></i>
-    <span>.icon-image</span>
-  </div>
-  
-  <div class="c-icon-list__item">
     <i class="icon icon-import-image"></i>
     <span>.icon-import-image</span>
   </div>
@@ -348,6 +383,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-info"></i>
     <span>.icon-info</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-image"></i>
+    <span>.icon-image</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -381,6 +421,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-mention"></i>
+    <span>.icon-mention</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-mailbox-plus"></i>
     <span>.icon-mailbox-plus</span>
   </div>
@@ -388,16 +433,6 @@
   <div class="c-icon-list__item">
     <i class="icon icon-mailbox"></i>
     <span>.icon-mailbox</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-mention"></i>
-    <span>.icon-mention</span>
-  </div>
-  
-  <div class="c-icon-list__item">
-    <i class="icon icon-menu-vertical"></i>
-    <span>.icon-menu-vertical</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -538,6 +573,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-workflow"></i>
     <span>.icon-workflow</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-menu-vertical"></i>
+    <span>.icon-menu-vertical</span>
   </div>
   
 </div>
