@@ -46,13 +46,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-globe"></i>
-    <span>.icon-globe</span>
+    <i class="icon icon-gear"></i>
+    <span>.icon-gear</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-gear"></i>
-    <span>.icon-gear</span>
+    <i class="icon icon-globe"></i>
+    <span>.icon-globe</span>
   </div>
   
   <div class="c-icon-list__item">
