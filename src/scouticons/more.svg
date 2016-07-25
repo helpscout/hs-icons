@@ -7,7 +7,7 @@
 	.st0{fill:#A5B2BD;}
 	.st1{fill:#3197D6;}
 </style>
-<circle cx="18" cy="18" r="2"/>
-<circle cx="12" cy="18" r="2"/>
-<circle cx="6" cy="18" r="2"/>
+<circle cx="18" cy="12" r="2"/>
+<circle cx="12" cy="12" r="2"/>
+<circle cx="6" cy="12" r="2"/>
 </svg>

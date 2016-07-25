@@ -11,6 +11,21 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-align-center"></i>
+    <span>.icon-align-center</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-align-left"></i>
+    <span>.icon-align-left</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-align-right"></i>
+    <span>.icon-align-right</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-archive"></i>
     <span>.icon-archive</span>
   </div>
@@ -58,6 +73,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-bell"></i>
     <span>.icon-bell</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-bold"></i>
+    <span>.icon-bold</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -331,8 +351,18 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-italic"></i>
+    <span>.icon-italic</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-key"></i>
     <span>.icon-key</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-list"></i>
+    <span>.icon-list</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -466,6 +496,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-table"></i>
+    <span>.icon-table</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-tag"></i>
     <span>.icon-tag</span>
   </div>
@@ -483,6 +518,11 @@
   <div class="c-icon-list__item">
     <i class="icon icon-trophy"></i>
     <span>.icon-trophy</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-underline"></i>
+    <span>.icon-underline</span>
   </div>
   
   <div class="c-icon-list__item">
