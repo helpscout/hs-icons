@@ -35,15 +35,17 @@ gulp.task('font-icon', function(fn) {
   var directories= getFolders('src');
 
   directories.forEach(function(dir, index) {
-    var iconName = 'hs-' + dir;
+    var iconName = dir;
     var srcPath = path.join('src', dir, '*.svg');
     var destPath = path.join('dist', dir);
 
     var iconStream = gulp.src(srcPath)
-      .pipe(iconfont({ 
+      .pipe(iconfont({
+        fontHeight: 1200,
         fontName: iconName,
-        normalize: true,
-        formats: ['woff', 'eot']
+        formats: ['woff', 'eot'],
+        prependUnicode: true,
+        normalize: true
       }));
 
     async.parallel([

@@ -1,0 +1,491 @@
+// Icons
+// Default font path for hs-icons
+// Can be redefined to work with external @imports
+$scouticons-icon-font-path: '/dist/scouticons/fonts' !default;
+
+@font-face {
+	font-family: "scouticons";
+	src: url('#{$scouticons-icon-font-path}/scouticons.eot');
+	src: url('#{$scouticons-icon-font-path}/scouticons.eot?#iefix') format('eot'),
+		url('fonts/scouticons.woff') format('woff');
+}
+
+.icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  font-family: "scouticons";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 24px;
+  line-height: 1;
+  position: relative;
+}
+
+
+.icon-alert:before {
+	content: "\EA02";
+}
+
+.icon-add-note:before {
+	content: "\EA01";
+}
+
+.icon-align-center:before {
+	content: "\EA03";
+}
+
+.icon-align-left:before {
+	content: "\EA04";
+}
+
+.icon-align-right:before {
+	content: "\EA05";
+}
+
+.icon-archive:before {
+	content: "\EA06";
+}
+
+.icon-avatar-bdr:before {
+	content: "\EA0A";
+}
+
+.icon-attach-sm:before {
+	content: "\EA07";
+}
+
+.icon-avatar-add:before {
+	content: "\EA09";
+}
+
+.icon-attach:before {
+	content: "\EA08";
+}
+
+.icon-avatar-check:before {
+	content: "\EA0B";
+}
+
+.icon-avatar-cross:before {
+	content: "\EA0C";
+}
+
+.icon-avatar:before {
+	content: "\EA0D";
+}
+
+.icon-bell:before {
+	content: "\EA0F";
+}
+
+.icon-back:before {
+	content: "\EA0E";
+}
+
+.icon-caret-down:before {
+	content: "\EA11";
+}
+
+.icon-caret-left:before {
+	content: "\EA12";
+}
+
+.icon-bold:before {
+	content: "\EA10";
+}
+
+.icon-caret-right:before {
+	content: "\EA13";
+}
+
+.icon-cart:before {
+	content: "\EA15";
+}
+
+.icon-caret-up:before {
+	content: "\EA14";
+}
+
+.icon-case:before {
+	content: "\EA16";
+}
+
+.icon-cash:before {
+	content: "\EA17";
+}
+
+.icon-chat:before {
+	content: "\EA18";
+}
+
+.icon-circle-check:before {
+	content: "\EA1A";
+}
+
+.icon-check:before {
+	content: "\EA19";
+}
+
+.icon-circle-close-solid:before {
+	content: "\EA1B";
+}
+
+.icon-circle-close:before {
+	content: "\EA1C";
+}
+
+.icon-circle-minus:before {
+	content: "\EA1F";
+}
+
+.icon-circle-down:before {
+	content: "\EA1D";
+}
+
+.icon-circle-stop:before {
+	content: "\EA20";
+}
+
+.icon-circle-forward:before {
+	content: "\EA1E";
+}
+
+.icon-clock-sm:before {
+	content: "\EA21";
+}
+
+.icon-close:before {
+	content: "\EA22";
+}
+
+.icon-convo-new:before {
+	content: "\EA26";
+}
+
+.icon-cloud:before {
+	content: "\EA23";
+}
+
+.icon-create:before {
+	content: "\EA28";
+}
+
+.icon-connection:before {
+	content: "\EA24";
+}
+
+.icon-doc-arrow:before {
+	content: "\EA2A";
+}
+
+.icon-copy:before {
+	content: "\EA27";
+}
+
+.icon-doc:before {
+	content: "\EA2B";
+}
+
+.icon-dot:before {
+	content: "\EA2C";
+}
+
+.icon-custom-fields:before {
+	content: "\EA29";
+}
+
+.icon-email:before {
+	content: "\EA2E";
+}
+
+.icon-convo-check:before {
+	content: "\EA25";
+}
+
+.icon-envelope-message:before {
+	content: "\EA2F";
+}
+
+.icon-drafts:before {
+	content: "\EA2D";
+}
+
+.icon-eye:before {
+	content: "\EA32";
+}
+
+.icon-envelope:before {
+	content: "\EA30";
+}
+
+.icon-flag:before {
+	content: "\EA33";
+}
+
+.icon-folder-open:before {
+	content: "\EA36";
+}
+
+.icon-folder-closed:before {
+	content: "\EA35";
+}
+
+.icon-eye-closed:before {
+	content: "\EA31";
+}
+
+.icon-gear:before {
+	content: "\EA39";
+}
+
+.icon-folder-check:before {
+	content: "\EA34";
+}
+
+.icon-gear-sop:before {
+	content: "\EA38";
+}
+
+.icon-globe:before {
+	content: "\EA3A";
+}
+
+.icon-hand:before {
+	content: "\EA3B";
+}
+
+.icon-hide-keyboard:before {
+	content: "\EA3D";
+}
+
+.icon-forward:before {
+	content: "\EA37";
+}
+
+.icon-history:before {
+	content: "\EA3E";
+}
+
+.icon-help:before {
+	content: "\EA3C";
+}
+
+.icon-hs-editor-icons-outlined_align-left:before {
+	content: "\EA41";
+}
+
+.icon-hours:before {
+	content: "\EA3F";
+}
+
+.icon-hs-editor-icons-outlined_bold:before {
+	content: "\EA43";
+}
+
+.icon-hs-editor-icons-outlined_italic:before {
+	content: "\EA44";
+}
+
+.icon-hs-editor-icons-outlined_list:before {
+	content: "\EA45";
+}
+
+.icon-hs-editor-icons-outlined_align-center:before {
+	content: "\EA40";
+}
+
+.icon-hs-editor-icons-outlined_align-right:before {
+	content: "\EA42";
+}
+
+.icon-hs-editor-icons-outlined_table:before {
+	content: "\EA46";
+}
+
+.icon-hs-editor-icons-outlined_underline:before {
+	content: "\EA47";
+}
+
+.icon-hs-mark:before {
+	content: "\EA48";
+}
+
+.icon-html:before {
+	content: "\EA49";
+}
+
+.icon-hyperlink:before {
+	content: "\EA4A";
+}
+
+.icon-image-sm:before {
+	content: "\EA4B";
+}
+
+.icon-import-image:before {
+	content: "\EA4D";
+}
+
+.icon-info:before {
+	content: "\EA4E";
+}
+
+.icon-image:before {
+	content: "\EA4C";
+}
+
+.icon-italic:before {
+	content: "\EA4F";
+}
+
+.icon-key:before {
+	content: "\EA50";
+}
+
+.icon-list:before {
+	content: "\EA51";
+}
+
+.icon-lock-sm:before {
+	content: "\EA52";
+}
+
+.icon-lock:before {
+	content: "\EA53";
+}
+
+.icon-mailbox-check:before {
+	content: "\EA54";
+}
+
+.icon-mention:before {
+	content: "\EA57";
+}
+
+.icon-mailbox-plus:before {
+	content: "\EA55";
+}
+
+.icon-mailbox:before {
+	content: "\EA56";
+}
+
+.icon-moon:before {
+	content: "\EA59";
+}
+
+.icon-more:before {
+	content: "\EA5A";
+}
+
+.icon-move:before {
+	content: "\EA5B";
+}
+
+.icon-pencil:before {
+	content: "\EA5C";
+}
+
+.icon-phone:before {
+	content: "\EA5D";
+}
+
+.icon-pie:before {
+	content: "\EA5E";
+}
+
+.icon-plus:before {
+	content: "\EA5F";
+}
+
+.icon-power:before {
+	content: "\EA60";
+}
+
+.icon-print:before {
+	content: "\EA61";
+}
+
+.icon-reply:before {
+	content: "\EA62";
+}
+
+.icon-saved-replies:before {
+	content: "\EA63";
+}
+
+.icon-search-md:before {
+	content: "\EA64";
+}
+
+.icon-search-sm:before {
+	content: "\EA65";
+}
+
+.icon-search:before {
+	content: "\EA66";
+}
+
+.icon-select-all:before {
+	content: "\EA67";
+}
+
+.icon-send:before {
+	content: "\EA68";
+}
+
+.icon-square-check:before {
+	content: "\EA69";
+}
+
+.icon-star:before {
+	content: "\EA6A";
+}
+
+.icon-store:before {
+	content: "\EA6B";
+}
+
+.icon-table:before {
+	content: "\EA6C";
+}
+
+.icon-tag:before {
+	content: "\EA6D";
+}
+
+.icon-team:before {
+	content: "\EA6E";
+}
+
+.icon-trash:before {
+	content: "\EA6F";
+}
+
+.icon-trophy:before {
+	content: "\EA70";
+}
+
+.icon-underline:before {
+	content: "\EA71";
+}
+
+.icon-unlock:before {
+	content: "\EA72";
+}
+
+.icon-website:before {
+	content: "\EA73";
+}
+
+.icon-workflow:before {
+	content: "\EA74";
+}
+
+.icon-menu-vertical:before {
+	content: "\EA58";
+}
