@@ -545,4 +545,59 @@
     <span>.icon-bcc</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-chat-sm"></i>
+    <span>.icon-chat-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-close-sm"></i>
+    <span>.icon-close-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-email-sm"></i>
+    <span>.icon-email-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-meter"></i>
+    <span>.icon-meter</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-phone-sm"></i>
+    <span>.icon-phone-sm</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-formatting"></i>
+    <span>.icon-formatting</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-horizontalrule"></i>
+    <span>.icon-horizontalrule</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-book"></i>
+    <span>.icon-book</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-password"></i>
+    <span>.icon-password</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-redirect"></i>
+    <span>.icon-redirect</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-translate"></i>
+    <span>.icon-translate</span>
+  </div>
+  
 </div>
