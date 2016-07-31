@@ -600,4 +600,39 @@
     <span>.icon-translate</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-first"></i>
+    <span>.icon-first</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-import"></i>
+    <span>.icon-import</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-last"></i>
+    <span>.icon-last</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-next"></i>
+    <span>.icon-next</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-prev"></i>
+    <span>.icon-prev</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-doc-insert"></i>
+    <span>.icon-doc-insert</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-merge"></i>
+    <span>.icon-merge</span>
+  </div>
+  
 </div>
