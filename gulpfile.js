@@ -43,7 +43,7 @@ gulp.task('font-icon', function(fn) {
       .pipe(iconfont({
         fontHeight: 1200,
         fontName: iconName,
-        formats: ['woff', 'eot'],
+        formats: ['ttf', 'woff', 'eot'],
         prependUnicode: true,
         normalize: true
       }));
@@ -52,7 +52,6 @@ gulp.task('font-icon', function(fn) {
       function handleGlyphs (cb) {
         // HTML + MD
         iconStream.on('glyphs', function(glyphs, options) {
-
           // SCSS
           gulp.src('templates/_icons.scss')
             .pipe(consolidate('lodash', {
@@ -113,7 +112,7 @@ var generateBase64 = function(path, file) {
 
   return gulp.src(path + file)
     .pipe(base64({
-      extensions: ['woff', 'eot'],
+      extensions: ['ttf', 'woff', 'eot'],
       maxImageSize: 500000
     }))
     .pipe(gulp.dest(path));

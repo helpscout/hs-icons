@@ -4,12 +4,21 @@
   "version": "0.0.5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp",
+    "prerelease": "npm run test"
+  },
+  "homepage": "https://github.com/helpscout/hs-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helpscout/hs-icons.git"
   },
   "authors": [
     "ItsJonQ <itsjonq@gmail.com>"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
     "async": "^2.0.0",
     "browser-sync": "^2.13.0",

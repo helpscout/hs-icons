@@ -4,10 +4,10 @@
 $<%= fontName %>-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 
 @font-face {
-	font-family: "<%= fontName %>";
-	src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot');
-	src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
-		url('fonts/<%= fontName %>.woff') format('woff');
+  font-family: "<%= fontName %>";
+  src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot');
+  src: url('#{$<%= fontName %>-icon-font-path}/<%= fontName %>.eot?#iefix') format('eot'),
+  url('fonts/<%= fontName %>.woff') format('woff');
 }
 
 .<%= cssClass %> {
@@ -26,7 +26,7 @@ $<%= fontName %>-icon-font-path: '/dist/<%= fontName %>/fonts' !default;
 }
 
 <% _.each(glyphs, function(glyph) { %>
-.<%= cssClass %>-<%= glyph.name%>:before {
-	content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>";
-}
+  .<%= cssClass %>-<%= glyph.name%>:before {
+    content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>";
+  }
 <% }); %>
