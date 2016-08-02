@@ -1,4 +1,4 @@
-hs-icon [![Build Status](https://travis-ci.com/helpscout/hs-icons.svg?token=mizbXyxLU95YeKzixKT2&branch=master)](https://travis-ci.com/helpscout/hs-icons)
+hs-icons [![Build Status](https://travis-ci.com/helpscout/hs-icons.svg?token=mizbXyxLU95YeKzixKT2&branch=master)](https://travis-ci.com/helpscout/hs-icons)
 ==========
 
 **Help Scout's Icon font**
