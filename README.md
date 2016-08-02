@@ -1,5 +1,7 @@
-Help Scout's Icon font
+hs-icon [![Build Status](https://travis-ci.com/helpscout/hs-icons.svg?token=mizbXyxLU95YeKzixKT2&branch=master)](https://travis-ci.com/helpscout/hs-icons)
 ==========
+
+**Help Scout's Icon font**
 
 Built using [gulp](http://gulpjs.com/).
 
