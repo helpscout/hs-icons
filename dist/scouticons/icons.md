@@ -635,4 +635,84 @@
     <span>.icon-merge</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-circle-plus"></i>
+    <span>.icon-circle-plus</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-ab"></i>
+    <span>.icon-ab</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-aim"></i>
+    <span>.icon-aim</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-fb"></i>
+    <span>.icon-fb</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-fl"></i>
+    <span>.icon-fl</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-go"></i>
+    <span>.icon-go</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-icq"></i>
+    <span>.icon-icq</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-li"></i>
+    <span>.icon-li</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-msn"></i>
+    <span>.icon-msn</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-qu"></i>
+    <span>.icon-qu</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-skype"></i>
+    <span>.icon-skype</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-tw"></i>
+    <span>.icon-tw</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-xmpp"></i>
+    <span>.icon-xmpp</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-yahoo"></i>
+    <span>.icon-yahoo</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-yt"></i>
+    <span>.icon-yt</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-tw-alt"></i>
+    <span>.icon-tw-alt</span>
+  </div>
+  
 </div>
