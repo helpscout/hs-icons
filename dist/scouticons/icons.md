@@ -715,4 +715,9 @@
     <span>.icon-tw-alt</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-fs"></i>
+    <span>.icon-fs</span>
+  </div>
+  
 </div>
