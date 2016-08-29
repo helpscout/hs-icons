@@ -720,4 +720,19 @@
     <span>.icon-fs</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-camera"></i>
+    <span>.icon-camera</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-close-sm-alt"></i>
+    <span>.icon-close-sm-alt</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-close-md"></i>
+    <span>.icon-close-md</span>
+  </div>
+  
 </div>
