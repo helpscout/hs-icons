@@ -276,8 +276,8 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-gear-sop"></i>
-    <span>.icon-gear-sop</span>
+    <i class="icon icon-gear-stop"></i>
+    <span>.icon-gear-stop</span>
   </div>
   
   <div class="c-icon-list__item">
@@ -733,6 +733,21 @@
   <div class="c-icon-list__item">
     <i class="icon icon-close-md"></i>
     <span>.icon-close-md</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-features"></i>
+    <span>.icon-features</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-unlock_unlock"></i>
+    <span>.icon-unlock_unlock</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-workflow_workflow"></i>
+    <span>.icon-workflow_workflow</span>
   </div>
   
 </div>
