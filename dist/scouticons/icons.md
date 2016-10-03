@@ -741,13 +741,23 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-unlock_unlock"></i>
-    <span>.icon-unlock_unlock</span>
+    <i class="icon icon-new-window"></i>
+    <span>.icon-new-window</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-workflow_workflow"></i>
-    <span>.icon-workflow_workflow</span>
+    <i class="icon icon-avatar-lg"></i>
+    <span>.icon-avatar-lg</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-workflow-lg"></i>
+    <span>.icon-workflow-lg</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-arrow-fill"></i>
+    <span>.icon-arrow-fill</span>
   </div>
   
 </div>
