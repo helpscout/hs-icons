@@ -741,6 +741,11 @@
   </div>
   
   <div class="c-icon-list__item">
+    <i class="icon icon-calendar"></i>
+    <span>.icon-calendar</span>
+  </div>
+  
+  <div class="c-icon-list__item">
     <i class="icon icon-new-window"></i>
     <span>.icon-new-window</span>
   </div>
@@ -761,13 +766,13 @@
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-calendar"></i>
-    <span>.icon-calendar</span>
+    <i class="icon icon-menu"></i>
+    <span>.icon-menu</span>
   </div>
   
   <div class="c-icon-list__item">
-    <i class="icon icon-menu"></i>
-    <span>.icon-menu</span>
+    <i class="icon icon-bell-lg"></i>
+    <span>.icon-bell-lg</span>
   </div>
   
 </div>
