@@ -4,6 +4,7 @@
   "version": "0.0.10",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "test": "gulp",
     "prerelease": "npm run test"
   },
