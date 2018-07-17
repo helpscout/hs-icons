@@ -795,4 +795,9 @@
     <span>.icon-heart</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-quote"></i>
+    <span>.icon-quote</span>
+  </div>
+  
 </div>
