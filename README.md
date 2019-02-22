@@ -1,4 +1,4 @@
-# hs-icons
+# Icons
 
 [![Build Status](https://travis-ci.com/helpscout/hs-icons.svg?token=mizbXyxLU95YeKzixKT2&branch=master)](https://travis-ci.com/helpscout/hs-icons)
 
@@ -8,9 +8,16 @@ Built using [gulp](http://gulpjs.com/).
 
 ## Table of contents
 
+- [Installation](#installation)
 - [Requirements](#requirements)
 - [Getting started](#getting-started)
 - [Updating](#updating)
+
+## Installation
+
+```
+npm install --save @helpscout/icons
+```
 
 ## Requirements
 
