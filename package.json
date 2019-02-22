@@ -10,7 +10,6 @@
   "scripts": {
     "start": "gulp",
     "test": "gulp",
-    "version": "sh ./scripts/prerelease.sh",
     "release": "np --yolo"
   },
   "files": [
