@@ -1,7 +1,7 @@
 {
   "name": "@helpscout/icons",
   "description": "Help Scout's icon fonts",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "main": "index.js",
   "private": false,
   "publishConfig": {
@@ -13,13 +13,19 @@
     "version": "sh ./scripts/prerelease.sh",
     "release": "np --yolo"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "homepage": "https://github.com/helpscout/hs-icons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helpscout/hs-icons.git"
   },
-  "authors": ["ItsJonQ <hello@jonquach.com>"],
+  "authors": [
+    "ItsJonQ <hello@jonquach.com>"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=8"
