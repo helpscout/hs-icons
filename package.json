@@ -10,7 +10,7 @@
   "scripts": {
     "start": "gulp",
     "test": "gulp",
-    "version": "npm run start && git add .",
+    "prerelease": "npm run start && git add .",
     "release": "np"
   },
   "files": [
