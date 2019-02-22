@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "4"
+  - "8"
 
 branches:
   only:
@@ -9,9 +9,6 @@ branches:
 cache:
   directories:
     - node_modules
-
-before_install:
-  - npm set progress=false
 
 install:
   - npm install
