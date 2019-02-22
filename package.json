@@ -11,7 +11,7 @@
     "start": "gulp",
     "test": "gulp",
     "version": "sh ./scripts/prerelease.sh",
-    "release": "np -- --yolo"
+    "release": "np --yolo"
   },
   "files": ["dist", "README.md", "LICENSE"],
   "homepage": "https://github.com/helpscout/hs-icons",
