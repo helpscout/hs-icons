@@ -50,6 +50,7 @@
     "tough-cookie": "3.0.1"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "natives": "^1.1.6"
   }
 }
