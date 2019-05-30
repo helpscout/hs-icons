@@ -48,5 +48,8 @@
     "run-sequence": "^2.2.1",
     "tar": "4.4.8",
     "tough-cookie": "3.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
