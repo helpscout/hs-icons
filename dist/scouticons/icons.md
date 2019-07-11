@@ -805,4 +805,14 @@
     <span>.icon-dashboard</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-puzzle"></i>
+    <span>.icon-puzzle</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-handwave"></i>
+    <span>.icon-handwave</span>
+  </div>
+  
 </div>
