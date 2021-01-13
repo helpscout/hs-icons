@@ -815,4 +815,9 @@
     <span>.icon-handwave</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-copy-small"></i>
+    <span>.icon-copy-small</span>
+  </div>
+  
 </div>
