@@ -820,4 +820,14 @@
     <span>.icon-copy-small</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-circular-help"></i>
+    <span>.icon-circular-help</span>
+  </div>
+  
+  <div class="c-icon-list__item">
+    <i class="icon icon-search-lg"></i>
+    <span>.icon-search-lg</span>
+  </div>
+  
 </div>
