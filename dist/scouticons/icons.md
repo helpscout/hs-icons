@@ -830,4 +830,9 @@
     <span>.icon-search-lg</span>
   </div>
   
+  <div class="c-icon-list__item">
+    <i class="icon icon-sparkle"></i>
+    <span>.icon-sparkle</span>
+  </div>
+  
 </div>
